@@ -1,9 +1,9 @@
 const chatBox = document.getElementById("chat-box");
 const userInput = document.getElementById("user-input");
 
-// 🔑 اینجا API Key خود را جایگذاری کنید!
-const API_KEY = "اینجا API خود را بگذارید"; 
-const API_URL = "https://api.openai.com/v1/chat/completions";
+// sk-svcacct-n3rnUdEW14bx0Gu2meHbrx5O6A9Bm_OeZxxG8chIbT9d6FMuAgDzSSf0sTxDZ2QQsszgV2Fq3P4xrQA
+const آپی_کی   =   "اینجا API خود را بگذارید" ;   
+const آپیرول  =  "https://api.openai.com/v1/chat/completions";
 
 function sendMessage() {
     const message = userInput.value.trim();
